@@ -1,0 +1,35 @@
+category:
+  # - name: Fisher's series Roots blower
+  #   products:
+  #       - name: ZLE-150L two-leaf vertical Roots blower
+  #         images:
+  #           - /photos/products/11.jpg
+  #       - name: ZLE-125L two-leaf vertical Roots blower
+  #         images:
+  #           - /photos/products/11.jpg
+  #       - name: ZLE-100L two-leaf vertical Roots blower
+  #         images:
+  #           - /photos/products/11.jpg
+  #       - name: ZLE-80L two-leaf vertical Roots blower
+  #         images:
+  #           - /photos/products/11.jpg
+  #       - name: ZLE-65LA two-leaf vertical Roots blower
+  #         images:
+  #           - /photos/products/11.jpg
+  #       - name: ZLE-65L two-leaf vertical Roots blower
+  #         images:
+  #           - /photos/products/11.jpg
+  #       - name: ZLE-50L two-leaf vertical Roots blower
+  #         images:
+  #           - /photos/products/11.jpg
+articleCategory:
+  # - name: Các dòng gà
+  #   url: /cac-dong-ga
+  #   articles:
+  #     - name: Stuart Yellow leg Hatch
+  #       description: Mạnh mẽ, khôn ngoan, màu điều, chân vàng, mồng dâu, đuôi lao, thân hình vạm vỡ, gà chạng khá lớn, thường ở mức 2.5 - 2.8kg
+  #       url: /cac-dong-ga/stuart-yellow-leg-hatch.html
+  #       images:
+  #           - /photos/cac-dong-ga/stuart-yellow-leg-hatch/xich-ke-stuart-yellow-legged-hatch-02.jpg
+  #           - /photos/cac-dong-ga/stuart-yellow-leg-hatch/xich-ke-stuart-yellow-legged-hatch-01.jpg
+  #           - /photos/cac-dong-ga/stuart-yellow-leg-hatch/xich-ke-stuart-yellow-legged-hatch-03.jpg

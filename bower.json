@@ -1,0 +1,22 @@
+{
+  "name": "xichke",
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "bootstrap": "^3.3.7",
+    "lodash": "^4.17.4",
+    "animate.css": "^3.5.2",
+    "font-awesome": "^4.7.0",
+    "jQuery.dotdotdot": "^3.1.0"
+  }
+}

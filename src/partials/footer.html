@@ -1,0 +1,52 @@
+<section class="service-area">
+    <div class="container">
+        <div class="row">
+        </div>
+    </div>
+</section>
+<section class="footer-widget-area">
+    <div class="container">
+        <div class="row">
+            <div class="single-service w33p">
+                <div class="service-icon">
+                    <div class="service-tablecell">
+                        <a target="_blank" href="{{meta.fb_page}}"><i class="fa fa-facebook fa-2x red"></i></a>
+                    </div>
+                </div>
+                <a target="_blank" class="red" href="{{meta.fb_page}}">{{remove meta.fb_page "https://www."}}</a>
+            </div>
+            <div class="single-service w33p">
+                <div class="service-icon">
+                    <div class="service-tablecell">
+                        <a target="_blank" class="red" href="{{meta.youtube_channel}}"><i class="fa fa-youtube fa-2x red"></i></a>
+                    </div>
+                </div>
+                <a target="_blank" class="red" href="{{meta.youtube_channel}}">{{remove meta.youtube_channel "https://www."}}</a>
+            </div>
+            <div class="single-service w33p">
+                <div class="service-icon">
+                    <div class="service-tablecell">
+                        <a class="red" href="tel:0911779917"><i class="fa fa-phone fa-2x red"></i></a>
+                    </div>
+                </div>
+                {{#each meta.phone}}
+                <a class="red" href="tel:{{this}}">{{this}}</a>
+                {{!-- <p><a href="tel:{{this}}">{{this}}</a></p> --}}
+                {{/each}}
+                
+            </div>
+        </div>
+    </div>
+</section>
+<footer class="footer-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12">
+                <div class="footer-left">
+                    <p>Copyright &copy; 2017<a href="/">{{meta.name}}</a>. All rights reserved.</p><br/><br/>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<div id="fb-root"></div>

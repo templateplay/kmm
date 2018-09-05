@@ -1,0 +1,42 @@
+<section class="blog-main-areh">
+    <div class="container">
+        {{#each data.category}}
+        <section class="shop-main shop-main-area">
+            <div class="row">
+                <div class="panel panel-success">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">{{this.name}}</h3>
+                    </div>
+                    <div class="panel-body">
+                        {{#each this.products}}
+                        <div class="single-product-items">
+                            <div class="single-items">
+                                <a href="{{this.url}}">
+                                    <img class="primary-img" src="{{first this.images}}" alt="">
+                                </a>
+                            </div>
+                            <div class="product-info">
+                                <h4><a href="{{this.url}}" class="blue">{{this.name}}</a></h4>
+                                {{!-- <div class="line">Giá : <span class="orange">{{this.original_price}}</span> <b class="green">{{this.price}}</b></div> --}}
+                                {{!-- <div class="product-rating">
+                                    <i class="fa fa-star color"></i>
+                                    <i class="fa fa-star color"></i>
+                                    <i class="fa fa-star color"></i>
+                                    <i class="fa fa-star color"></i>
+                                    <i class="fa fa-star color"></i>
+                                </div> --}}
+                            </div>
+                        </div>
+                        {{/each}}
+                    </div>
+                </div>
+            </div>
+        </section>
+        {{/each}}
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12">
+                <div class="fb-comments" data-href="{{meta.url}}" data-numposts="15" data-width="100%"></div>
+            </div>
+        </div>
+    </div>
+</section>

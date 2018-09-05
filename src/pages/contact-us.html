@@ -1,0 +1,61 @@
+---
+og_images:
+    - https://kidmoviemusic.com/photos/profile.jpg
+---
+<section class="blog-details-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-98 col-md-12 col-sm-12">
+                <div class="single-blog">
+                    <div class="blog-text">
+                        <h1 class="red">{{blog.name}}</h1>
+                    </div>
+                    {{#if blog.image}}
+                    <div class="blog-image">
+                        <img src="{{blog.image}}" alt="{{blog.name}}">
+                    </div>
+                    {{/if}}
+                    <div class="blog-text details">
+                        <ul id="blog-detail">
+                            <div class="alert alert-warning allow2copy" role="alert">
+                                {{!-- <b class="orange">Anh em ưu tiên live chat qua Facebook </b> <a target="_blank" class="btn btn-danger" href="https://www.facebook.com/xichkedotcom">Xích Kê</a>
+                                <br/>
+                                <b class="orange">Hoặc liên hệ qua số phone: </b> <b class="blue">0911779917 (Mr. Sinh)</b> --}}
+                                {{!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> --}}
+                            </div>
+                            {{!-- <div class="panel panel-primary">
+                                <div class="panel-heading">
+                                    <b class="panel-title">Tài Khoản Ngân Hàng</b> </div>
+                                <div class="panel-body">
+                                    <div class="alert alert-success" role="alert">
+                                        <b>Trần Trang Sinh <br/> STK: 0071000985995<br/> Ngân hàng Vietcombank chi nhánh tp HCM</b>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel panel-primary">
+                                <div class="panel-heading">
+                                    <b class="panel-title">Địa chỉ giao dịch</b> </div>
+                                <div class="panel-body">
+                                    <div class="alert alert-warning" role="alert">
+                                        <b class="orange">Đồng Khởi, Biên Hoà, Đồng Nai</b>
+                                        <a class="btn btn-info" target="_blank" href="https://www.google.com/maps/place/10%C2%B058'42.1%22N+106%C2%B050'53.5%22E/@10.978376,106.8476408,19z/data=!3m1!4b1!4m5!3m4!1s0x0:0x0!8m2!3d10.978376!4d106.848188">Xem bản đồ</a>
+                                        <br/>
+                                        <br/><b class="blue">326, Võ Văn Kiệt, Cô Giang, Q1, HCM</b> <a target="_blank" class="btn btn-info" href="https://maps.app.goo.gl/?link=https://www.google.com/maps/place/326%2BV%25C3%25B5%2BV%25C4%2583n%2BKi%25E1%25BB%2587t,%2BC%25E1%25BA%25A7u%2B%25C3%2594ng%2BL%25C3%25A3nh,%2BQu%25E1%25BA%25ADn%2B1,%2BH%25E1%25BB%2593%2BCh%25C3%25AD%2BMinh,%2BVietnam/@10.7613009,106.6936247,17z/data%3D!3m1!4b1!4m5!3m4!1s0x31752f1393d5a9b1:0x68c4822ec14c1a6b!8m2!3d10.7613009!4d106.6958134?utm_source%3Dapp-invite%26mt%3D8%26pt%3D9008%26utm_medium%3DSIMPLE%26utm_campaign%3Ds2e-ai%26ct%3Ds2e-ai&apn=com.google.android.apps.maps&amv=703000000&isi=585027354&ibi=com.google.Maps&ius=comgooglemapsurl&utm_source=app-invite&mt=8&pt=9008&utm_medium=SIMPLE&utm_campaign=s2e-ai&ct=s2e-ai&invitation_id=493454522602-be1a66bc-a1e8-43ae-aef7-54c9f52583ad">Xem bản đồ</a>
+                                    </div>
+                                </div>
+                            </div> --}}
+                        </ul>
+                        <div class="share-post">
+                            <div class="fb-like" data-href="{{meta.url}}" data-layout="button_count" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
+                            <br/>
+                            <br/>
+                        </div>
+                        <div class="users-comments">
+                            <div class="fb-comments" data-href="{{route "lien-he.html"}}" data-numposts="15" data-width="100%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
